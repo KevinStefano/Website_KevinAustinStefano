@@ -48,7 +48,7 @@ img {
 }
 
 .border{
-    border-bottom: 8px solid rgb(226, 97, 46);
+    border-bottom: 8px solid rgb(241, 204, 79);
     width: 140px;
     border-radius: 10px;
     margin-bottom: 50px;
@@ -70,7 +70,12 @@ img {
 .container-2{
     padding-left: 150px;
     padding-top: 150px;
-    margin-bottom: 20vh;
+}
+.container-3{
+    padding-left: 150px;
+    padding-top: 30px;
+    
+    padding-right: 150px;
 }
 
 .name-2{
@@ -83,4 +88,42 @@ img {
     width: 50%;
     line-height: 30px;
     color: rgb(107, 107, 107);
+    margin-bottom: 40px;
+}
+
+.quote {
+    margin-top: 20vh;
+    height: 50vh;
+}
+
+.col{
+    flex: 33%;
+}
+
+.card{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 250px;
+    background-color: rgb(116, 116, 116);
+    border-radius: 14px;
+}
+
+.card-title{
+    padding-top: 75%;
+    text-align: center;
+    font-size: 25px;
+}
+
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    background-color: rgb(241, 204, 79);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.text-quote {
+    font-size: 40px;
+    text-align: right;
 }
